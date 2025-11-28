@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets and keys - NEVER commit these
+*.pem
+*.key
+.env
+.aws/
+credentials
+credentials.json
+
+# Local test files and data
+*.xlsx
+*.xls
+*.csv
+
+# Extracted/temp directories
+arc-app-extracted/
+
+# Large zip files (packages, deployments)
+arc-app.zip
+arc-deploy.zip
+arc_update.zip
+arc-packages/
+
+# Claude Code local config
+.claude/
+
+# Job posting data folders (contain candidate info)
+REQ_*/
+
+# Misc
+*.txt
+!requirements.txt
+*.bat
+
+# Local developer documentation
+claude.md
+
+# Organization-specific config (contains custom column mappings, author info)
+local_config.py
